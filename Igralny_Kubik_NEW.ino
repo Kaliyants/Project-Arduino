@@ -1,0 +1,255 @@
+long n;
+long s1;
+long s2;
+long s3;
+long s4;
+long s5;
+long s6;
+long s7;
+long s8;
+long s9;
+long s10;
+long s11;
+long s12;
+long s13;
+long s14;
+long s15;
+long s16;
+long s17;
+long s18;
+long s19;
+long s20;
+long s21;
+long s22;
+long s23;
+long s24;
+long s25;
+long s26;
+long s27;
+long time1;
+long time2;
+long time3;
+long time4;
+long time5;
+long time6;
+long time7;
+long time8;
+long time9;
+long time10;
+long time11;
+long time12;
+long time13;
+long time14;
+long time15;
+long time16;
+long time17;
+long time18;
+long time19;
+long time20;
+long time21;
+long time22;
+long time23;
+long time24;
+long time25;
+long time26;
+long time27;
+void setup() {
+  pinMode(5, OUTPUT);
+  pinMode(6, OUTPUT);
+  pinMode(7, OUTPUT);
+  pinMode(8, OUTPUT);
+  pinMode(9, OUTPUT);
+  pinMode(10, OUTPUT);
+  pinMode(18, INPUT_PULLUP);
+}
+
+void loop() {
+  n = random(1, 7);
+  s1 = random(5, 11);
+  s2 = random(5, 11);
+  s3 = random(5, 11);
+  s4 = random(5, 11);
+  s5 = random(5, 11);
+  s6 = random(5, 11);
+  s7 = random(5, 11);
+  s8 = random(5, 11);
+  s9 = random(5, 11);
+  s10 = random(5, 11);
+  s11 = random(5, 11);
+  s12 = random(5, 11);
+  s13 = random(5, 11);
+  s14 = random(5, 11);
+  s15 = random(5, 11);
+  s16 = random(5, 11);
+  s17 = random(5, 11);
+  s18 = random(5, 11);
+  s19 = random(5, 11);
+  s20 = random(5, 11);
+  s21 = random(5, 11);
+  s22 = random(5, 11);
+  s23 = random(5, 11);
+  s24 = random(5, 11);
+  s25 = random(5, 11);
+  s26 = random(5, 11);
+  s27 = random(5, 11);
+  time1 = random(100, 300);
+  time2 = random(100, 300);
+  time3 = random(100, 300);
+  time4 = random(100, 300);
+  time5 = random(100, 300);
+  time6 = random(100, 300);
+  time7 = random(100, 300);
+  time8 = random(300, 400);
+  time9 = random(100, 300);
+  time10 = random(100, 300);
+  time11 = random(100, 300);
+  time12 = random(100, 300);
+  time13 = random(100, 300);
+  time14 = random(100, 300);
+  time15 = random(100, 300);
+  time16 = random(300, 400);
+  time17 = random(100, 300);
+  time18 = random(100, 300);
+  time19 = random(100, 300);
+  time20 = random(100, 300);
+  time21 = random(300, 400);
+  time22 = random(100, 300);
+  time23 = random(100, 300);
+  time24 = random(300, 400);
+  time25 = random(100, 300);
+  time26 = random(100, 300);
+  time27 = random(300, 400);
+
+  time13 = random(300, 500);
+  if (digitalRead(18) == HIGH) 
+  {
+  return;
+  }
+  {
+  digitalWrite(s1, HIGH);
+  delay(time1);
+  digitalWrite(s2, HIGH);
+  delay(time2);
+  digitalWrite(s3, HIGH);
+  delay(time3);
+  digitalWrite(s4, HIGH);
+  delay(time4);
+  digitalWrite(s5, HIGH);
+  delay(time5);
+  digitalWrite(s6, HIGH);
+  delay(time6);
+  digitalWrite(s7, HIGH);
+  delay(time7);
+  digitalWrite(s8, HIGH);
+  delay(time8);  
+  digitalWrite(s1, LOW);
+  delay(time1);
+  digitalWrite(s2, LOW);
+  delay(time2);
+  digitalWrite(s3, LOW);
+  delay(time3);
+  digitalWrite(s4, LOW);
+  delay(time4);
+  digitalWrite(s5, LOW);
+  delay(time5);
+  digitalWrite(s6, LOW);
+  delay(time6);  
+  digitalWrite(s7, LOW);
+  delay(time7);
+  digitalWrite(s8, LOW);
+  delay(time8);   
+    
+  digitalWrite(s9, HIGH);
+  delay(time9);
+  digitalWrite(s10, HIGH);
+  delay(time10);
+  digitalWrite(s11, HIGH);
+  delay(time11);
+  digitalWrite(s12, HIGH);
+  delay(time12);
+  digitalWrite(s13, HIGH);
+  delay(time13);  
+  digitalWrite(s13, LOW); 
+  delay(time12); 
+  digitalWrite(s12, LOW);
+  delay(time11);
+  digitalWrite(s11, LOW);
+  delay(time10);
+  digitalWrite(s10, LOW);
+  delay(time9);  
+  digitalWrite(s9, LOW);
+  delay(time13);  
+  digitalWrite(s14, HIGH);
+  delay(time14);
+  digitalWrite(s15, HIGH);
+  delay(time15);
+  digitalWrite(s16, HIGH);
+  delay(time16);
+  digitalWrite(s14, LOW);
+  delay(time16);
+  digitalWrite(s15, LOW);
+  delay(time15);
+  digitalWrite(s16, LOW);
+
+  digitalWrite(s17, HIGH);
+  delay(time17);
+  digitalWrite(s18, HIGH);
+  delay(time18);
+  digitalWrite(s19, HIGH);
+  delay(time19);
+  digitalWrite(s20, HIGH);
+  delay(time20);
+  digitalWrite(s21, HIGH);
+  delay(time21);  
+  digitalWrite(s17, LOW); 
+  delay(time17); 
+  digitalWrite(s18, LOW);
+  delay(time18);
+  digitalWrite(s19, LOW);
+  delay(time19);
+  digitalWrite(s20, LOW);
+  delay(time20);  
+  digitalWrite(s21, LOW);
+  
+  digitalWrite(s22, HIGH);
+  delay(time22);
+  digitalWrite(s23, HIGH);
+  delay(time23);
+  digitalWrite(s24, HIGH);
+  delay(time24);
+  digitalWrite(s23, LOW); 
+  delay(time23); 
+  digitalWrite(s22, LOW);
+  delay(time22);
+  digitalWrite(s24, LOW);
+  delay(time24);
+  digitalWrite(s25, HIGH);
+  delay(time25);
+  digitalWrite(s26, HIGH);
+  delay(time25);
+  digitalWrite(s27, HIGH);
+  delay(time27);
+  digitalWrite(s25, LOW); 
+  delay(time26); 
+  digitalWrite(s26, LOW);
+  delay(time25);
+  digitalWrite(s27, LOW);               
+  
+  delay(3000);
+  for (int i = 0; i <= n - 1; i++)
+    {
+    digitalWrite(i + 5, HIGH);
+    delay(200);      
+    }  
+  delay(2000);
+  for (int i = n; i > -1; i--)
+    {
+    digitalWrite(i + 5, LOW);
+    delay(200);      
+    }
+  }
+  while (digitalRead(18) == LOW) 
+  {
+  delay(10);
+  }  
+}
